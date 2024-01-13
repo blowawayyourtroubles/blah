@@ -1,0 +1,228 @@
+ .pag {
+   background-color: rgb(13, 20, 28);
+   color: rgb(240, 228, 178);
+   font-family: Helvetica;
+   scroll-behavior: smooth;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   outline: none;
+ }
+
+ .icono {
+
+
+   border-radius: 100px;
+
+ }
+
+ .content {
+   flex: 1 0 auto;
+ }
+
+ .menu {
+   background-color: rgb(240, 228, 178);
+   overflow: hidden;
+ }
+
+ .menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .menu li {
+   float: left;
+ }
+
+ .menu li a {
+   display: block;
+   color: rgb(13, 20, 28);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ .menu li a:hover {
+   background-color: rgb(191, 32, 38);
+ }
+
+ .titulo {
+
+   background-color: rgb(191, 32, 38);
+   color: rgb(240, 228, 178);
+   font-family: Tahoma;
+   font-style: bold;
+ }
+
+
+ .parrafo1 {
+
+   color: rgb(240, 228, 178);
+   font-style: normal;
+   font-family: Segoe UI;
+   text-align: justify;
+
+ }
+
+
+
+
+
+
+
+
+ .album1 {
+
+   height: 100px;
+   width: 350px;
+   border-radius: 1px;
+
+
+ }
+
+
+
+
+ .album2 {
+
+   height: 100px;
+   width: 350px;
+   border-radius: 1px;
+   background-color: rgb(240, 228, 178);
+
+
+ }
+
+ .album3 {
+
+   height: 100px;
+   width: 400px;
+   border-radius: 1px;
+   background-color: rgb(240, 228, 178);
+
+
+
+
+ }
+
+
+ .album4 {
+
+   height: 100px;
+   width: 400px;
+   border-radius: 1px;
+   background-color: rgb(240, 228, 178);
+
+ }
+
+
+ .top1 {
+
+
+   color: rgb(240, 228, 178);
+   font-family: Tahoma;
+ }
+
+
+ .top2 {
+
+
+   color: rgb(191, 32, 38);
+   font-family: Tahoma;
+
+ }
+
+
+
+ .top3 {
+
+
+   color: rgb(240, 228, 178);
+   font-family: Tahoma;
+
+
+ }
+
+
+ .top4 {
+
+
+   color: rgb(191, 32, 38);
+   font-family: Tahoma;
+
+
+ }
+
+
+ .listas,
+ .listas2,
+ .listas3,
+ .listas4 {
+   width: 30%;
+   margin: 1em;
+   text-decoration: none;
+ }
+
+ .listas {
+   float: left;
+
+   background-color: rgb(191, 32, 38);
+   color: rgb(240, 228, 178)
+ }
+
+ .listas2 {
+   float: right;
+
+   background-color: rgb(240, 228, 178);
+   color: rgb(191, 32, 38);
+ }
+
+ .listas3 {
+   clear: both;
+   float: right;
+
+
+   background-color: rgb(191, 32, 38);
+   color: rgb(240, 228, 178);
+
+ }
+
+
+
+ .listas4 {
+
+
+   background-color: rgb(240, 228, 178);
+   color: rgb(191, 32, 38);
+ }
+
+
+
+ .button {
+
+   color: rgb(240, 228, 178);
+   background-color: rgb(191, 32, 38);
+   height: 50px;
+   width: auto;
+   position: fixed;
+   margin-top: 25px;
+   border-radius: 5px;
+   font-family: Tahoma;
+   font-style: bold;
+ }
+
+ .pie {
+   background-color: rgb(13, 20, 28);
+   text-align: center;
+   color: rgb(191, 32, 38);
+   font-family: Tahoma;
+   padding-top: 50px;
+   height: 30px;
+   margin-top: auto;
+   flex-shrink: 0;
+
+
+
+
+ }
